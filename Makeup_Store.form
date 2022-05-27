@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.Makeup_Store">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="18" column-count="9" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1061" height="571"/>
+    </constraints>
+    <properties>
+      <background color="-11813969"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="d97c6" class="javax.swing.JLabel" binding="labelJudul">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype" size="16"/>
+          <text value=" BONY'S MAKE UP SHOP"/>
+        </properties>
+      </component>
+      <component id="f0eb8" class="javax.swing.JLabel" binding="labelBayar">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype" size="13"/>
+          <text value="Pembayaran"/>
+        </properties>
+      </component>
+      <component id="5bc80" class="javax.swing.JLabel" binding="labelFoundation">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Foundation"/>
+        </properties>
+      </component>
+      <component id="ce747" class="javax.swing.JLabel" binding="labelMaskara">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Mascara"/>
+        </properties>
+      </component>
+      <component id="9771b" class="javax.swing.JTextField" binding="textMaskara">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="94fa4" class="javax.swing.JLabel" binding="labelLipstick">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Lipstick"/>
+        </properties>
+      </component>
+      <component id="8e501" class="javax.swing.JTextField" binding="textLipstick">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="c6f13" class="javax.swing.JLabel" binding="labelFacePallete">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Face pallete"/>
+        </properties>
+      </component>
+      <component id="c3dbd" class="javax.swing.JTextField" binding="textFacePallete">
+        <constraints>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="c09c2" class="javax.swing.JLabel" binding="labelPensilAlis">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Eyebrow pencil"/>
+        </properties>
+      </component>
+      <component id="2116b" class="javax.swing.JTextField" binding="textPensilAlis">
+        <constraints>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="f8c82" class="javax.swing.JLabel" binding="labelSerum">
+        <constraints>
+          <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Serum"/>
+        </properties>
+      </component>
+      <component id="82ae8" class="javax.swing.JLabel" binding="labelToner">
+        <constraints>
+          <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Toner"/>
+        </properties>
+      </component>
+      <component id="1b09a" class="javax.swing.JTextField" binding="textToner">
+        <constraints>
+          <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="9257a" class="javax.swing.JTextField" binding="textEssence">
+        <constraints>
+          <grid row="8" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="9eb23" class="javax.swing.JTextField" binding="textEyeCream">
+        <constraints>
+          <grid row="9" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="876e7" class="javax.swing.JTextField" binding="textSheetMask">
+        <constraints>
+          <grid row="10" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="f8a99" class="javax.swing.JLabel" binding="labelEssence">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Essence"/>
+        </properties>
+      </component>
+      <component id="be5ca" class="javax.swing.JLabel" binding="labelEyeCream">
+        <constraints>
+          <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <font name="Palatino Linotype"/>
+          <text value="Eye cream"/>
+        </properties>
+      </component>
+      <component id="e1412" class="javax.swing.JLabel" binding="labelSheetMask">
+        <constraints>
+          <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Sheet mask"/>
+        </properties>
+      </component>
+      <component id="77e18" class="javax.swing.JLabel" binding="labelTotalPesanan">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Total Pesanan"/>
+        </properties>
+      </component>
+      <component id="be544" class="javax.swing.JTextField" binding="textTotalPesanan">
+        <constraints>
+          <grid row="14" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="a9237" class="javax.swing.JLabel" binding="labelPotonganHarga">
+        <constraints>
+          <grid row="15" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value=" Potongan Harga"/>
+        </properties>
+      </component>
+      <component id="479e1" class="javax.swing.JTextField" binding="textPotonganHarga">
+        <constraints>
+          <grid row="15" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="79c68" class="javax.swing.JLabel" binding="labelTotalSkincare">
+        <constraints>
+          <grid row="13" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Harga Skincare"/>
+        </properties>
+      </component>
+      <component id="24ae2" class="javax.swing.JTextField" binding="textTotalSkincare">
+        <constraints>
+          <grid row="13" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3136d" class="javax.swing.JTextField" binding="textFoundation">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="91dc" class="javax.swing.JTextField" binding="textHargaFoundation">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3785c" class="javax.swing.JTextField" binding="textSerum">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="7aa88" class="javax.swing.JTextField" binding="textHargaSerum">
+        <constraints>
+          <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="40a55" class="javax.swing.JTextField" binding="textHargaMascara">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4a416" class="javax.swing.JTextField" binding="textHargaLipstick">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="251cb" class="javax.swing.JTextField" binding="textHargaFacePallete">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="e54d5" class="javax.swing.JTextField" binding="textHargaEyebrowPencil">
+        <constraints>
+          <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="28ef4" class="javax.swing.JTextField" binding="textHargaToner">
+        <constraints>
+          <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="56aed" class="javax.swing.JTextField" binding="textHargaEssence">
+        <constraints>
+          <grid row="8" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="34bb1" class="javax.swing.JTextField" binding="textHargaEyeCream">
+        <constraints>
+          <grid row="9" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="5ae28" class="javax.swing.JTextField" binding="textHargaSheetMask">
+        <constraints>
+          <grid row="10" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="4177e" class="javax.swing.JLabel" binding="labelMetodePembayaran">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Metode Pembayaran"/>
+        </properties>
+      </component>
+      <component id="e35a4" class="javax.swing.JComboBox" binding="comboBoxMetodePembayaran">
+        <constraints>
+          <grid row="12" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <model>
+            <item value="Select"/>
+            <item value="BCA"/>
+            <item value="BNI"/>
+            <item value="BRI"/>
+            <item value="Bank Syariah Indonesia"/>
+          </model>
+        </properties>
+      </component>
+      <component id="80b0d" class="javax.swing.JTextField" binding="textPembayaran">
+        <constraints>
+          <grid row="12" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+        </properties>
+      </component>
+      <component id="2cfc9" class="javax.swing.JLabel" binding="labelMakeUp">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Make Up"/>
+        </properties>
+      </component>
+      <component id="aef0f" class="javax.swing.JLabel" binding="labelMerk">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Merk"/>
+        </properties>
+      </component>
+      <component id="ecee" class="javax.swing.JComboBox" binding="comboBoxMerk">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <model>
+            <item value="Select"/>
+            <item value="Louise"/>
+            <item value="Roseane"/>
+            <item value="Eden"/>
+          </model>
+        </properties>
+      </component>
+      <component id="7bafd" class="javax.swing.JLabel" binding="labelSkincare">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Skincare"/>
+        </properties>
+      </component>
+      <component id="2aaf1" class="javax.swing.JTextField" binding="textTotalBelanja">
+        <constraints>
+          <grid row="16" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="1e171" class="javax.swing.JLabel" binding="labelTotalBelanja">
+        <constraints>
+          <grid row="16" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Total Belanja"/>
+        </properties>
+      </component>
+      <component id="c17eb" class="javax.swing.JButton" binding="totalButton" default-binding="true">
+        <constraints>
+          <grid row="17" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Total"/>
+        </properties>
+      </component>
+      <component id="964ed" class="javax.swing.JButton" binding="receiptButton" default-binding="true">
+        <constraints>
+          <grid row="17" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Receipt"/>
+        </properties>
+      </component>
+      <component id="e6ae2" class="javax.swing.JButton" binding="resetButton" default-binding="true">
+        <constraints>
+          <grid row="17" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Reset"/>
+        </properties>
+      </component>
+      <component id="8340d" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints>
+          <grid row="17" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <component id="ae60f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="8" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9fe4e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a2168" class="javax.swing.JTextArea" binding="textHasil">
+        <constraints>
+          <grid row="2" column="8" row-span="16" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="3fd62" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="f32b1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="4" row-span="5" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="7ca04" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="0" row-span="5" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a4b76" class="javax.swing.JLabel" binding="labelTotalMakeUp">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Palatino Linotype"/>
+          <text value="Harga MakeUp"/>
+        </properties>
+      </component>
+      <component id="f310f" class="javax.swing.JTextField" binding="textTotalMakeUp">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+    </children>
+  </grid>
+</form>
